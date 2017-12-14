@@ -22,6 +22,12 @@ namespace HelloWorld
             Console.WriteLine("f: " + f);
             Console.WriteLine("c: " + c);
             Console.WriteLine("Hello World!");
+            checked
+            {
+                height = 255;
+                height += 1;
+            }
+            Console.WriteLine("Height: " + height);
         }
     }
 }
