@@ -32,11 +32,21 @@ namespace HelloWorld
             Console.WriteLine("formatted string: {0} {1}", int.MinValue, int.MaxValue);
             Console.WriteLine("formatted string: {0} {1}", double.MinValue, double.MaxValue);
 
-            checked
-            {
-                height = 255;
-                height += 1;
-            }
+            string five = "5";
+            int Five = Convert.ToInt32(five);
+            Console.WriteLine("Five: " + Five);
+
+            int fivE = int.Parse(five);
+            Console.WriteLine("fivE: " + fivE);
+
+            TryCatchDemo tryObj = new TryCatchDemo();
+            tryObj.TryCatchSample("1234");
+            //checked
+            //{
+            //    height = 255;
+            //    height += 1;
+            //}
+
             Console.WriteLine("Height: " + height);
         }
     }
