@@ -22,6 +22,16 @@ namespace HelloWorld
             Console.WriteLine("f: " + f);
             Console.WriteLine("c: " + c);
             Console.WriteLine("Hello World!");
+
+            var g = 10.65; // var sets the respective data type based on the value
+            var h = "Apple";
+            const float Pi = 3.14f;
+
+            Console.WriteLine("{0},{1},{2}", g, h, Pi);
+            Console.WriteLine("formatted string: {0} {1}", float.MinValue, float.MaxValue);
+            Console.WriteLine("formatted string: {0} {1}", int.MinValue, int.MaxValue);
+            Console.WriteLine("formatted string: {0} {1}", double.MinValue, double.MaxValue);
+
             checked
             {
                 height = 255;
