@@ -6,9 +6,11 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            //            byte a = 4;
-            //            byte b = 4;
-            //            byte c = a + b;
+            byte height = 4;
+            byte breadth = 4;
+            byte area = (byte) ((int)height + (int) breadth);
+
+            Console.WriteLine("area by byte: " + area);
             int a = 4;
             int b = 4;
             int c = a + b;
