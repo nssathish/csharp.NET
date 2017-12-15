@@ -41,13 +41,23 @@ namespace HelloWorld
 
             TryCatchDemo tryObj = new TryCatchDemo();
             tryObj.TryCatchSample("1234");
-            //checked
-            //{
-            //    height = 255;
-            //    height += 1;
-            //}
-
+            /* 
+            checked
+            {
+                height = 255;
+                height += 1;
+            }
+            */
             Console.WriteLine("Height: " + height);
+
+            ObjInitDemo patient = new ObjInitDemo
+            {
+                patientFirstName = "Sathish",
+                patientId = 7,
+                patientLastName = "Kumar"
+            };
+
+            Console.WriteLine(patient.patientFirstName + " " + patient.patientLastName);
         }
     }
 }
