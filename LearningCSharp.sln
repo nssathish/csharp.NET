@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningCSharp", "HelloWorld\LearningCSharp.csproj", "{7A1128F3-6603-4321-B4E6-4F8F90FF9F30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningCSharp", "LearningCsharp\LearningCSharp.csproj", "{7A1128F3-6603-4321-B4E6-4F8F90FF9F30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
