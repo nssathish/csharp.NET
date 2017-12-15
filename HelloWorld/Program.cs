@@ -2,6 +2,23 @@
 
 namespace HelloWorld
 {
+    public class Person
+    {
+        public string personName;
+
+        public void Introduce (string to)
+        {
+            Console.WriteLine("Hi {0}.. I am {1}", to, personName);
+        }
+        //public Person clone (string name)
+        public static Person clone (string name)
+        {
+            var personObj = new Person();
+            personObj.personName = name;
+
+            return personObj;
+        }
+    }
     class Program
     {
         static void Main(string[] args)
@@ -58,6 +75,13 @@ namespace HelloWorld
             };
 
             Console.WriteLine(patient.patientFirstName + " " + patient.patientLastName);
+
+            Person person = new Person();
+            person.personName = "Sathish";
+            person.Introduce("Kumar");
+            // var buddy = person.clone("Sathish");
+            var buddy = Person.clone("Sathish");
+            buddy.Introduce("Kumar");
         }
     }
 }
