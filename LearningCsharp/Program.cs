@@ -2,23 +2,6 @@
 
 namespace LearningCSharp
 {
-    public class Person
-    {
-        public string personName;
-
-        public void Introduce (string to)
-        {
-            Console.WriteLine("Hi {0}.. I am {1}", to, personName);
-        }
-        //public Person clone (string name)
-        public static Person clone (string name)
-        {
-            var personObj = new Person();
-            personObj.personName = name;
-
-            return personObj;
-        }
-    }
     class Program
     {
         static void Main(string[] args)
