@@ -6,11 +6,12 @@ namespace CSharpIntermediate
     {
         public int id;
         public string name;
-        public List<Order> orders;
-
+//        public List<Order> orders;
+        public readonly List<Order> orders = new List<Order>();
         public Customer()
         {
-            orders = new List<Order>();
+            // orders = new List<Order>(); //For new orders which shouldn't be changed
+            // create the FIEDLS with the "readonly" operation
         }
         /*
          * Constructor overloading is not highly recommended (or) encouraged
