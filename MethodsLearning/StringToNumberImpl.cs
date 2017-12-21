@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.InteropServices;
 
 namespace MethodsLearning
 {
@@ -28,7 +27,7 @@ namespace MethodsLearning
             if (parseResult)
                 Console.WriteLine(result);
             else
-                Console.WriteLine("Conversion failed!!");
+                Console.WriteLine("Conversion failed!");
         }
     }
 }
