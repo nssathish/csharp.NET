@@ -23,6 +23,14 @@ namespace InterfacesImpl
             QueueImpl queueImpl = new QueueImpl(10,stack);
             queueImpl.Peep(); //using a single stack and recursion has another stack to behave it like a queue (I'm weird)
             //if the result for the above peep is not what you expected. (like one less item printed) then comment that stack.pop above
+
+            //Enum implementation
+            EnumImpl enumImpl = new EnumImpl();
+            enumImpl.PlayEnum();
+
+            //Struct implementation
+            StructImpl structImpl = new StructImpl();
+            structImpl.PlayStruct();
         }
     }
 }
