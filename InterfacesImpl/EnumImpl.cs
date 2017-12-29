@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace InterfacesImpl
 {
@@ -9,6 +10,14 @@ namespace InterfacesImpl
 
     class EnumImpl
     {
+        public IEnumerable YieldCheck(int step, int stop)
+        {
+            for (int i = 0; i < stop; i += step)
+            {
+                yield return i;
+            }
+        }
+
         enum weekdays
         {
             Sunday = 1,
@@ -39,6 +48,11 @@ namespace InterfacesImpl
             //Fifth planet in the milkyway
             Console.WriteLine("Fifth planet in the milkyway: " + planets.Jupiter);
 
+            //Yield - that is generating the iterator
+            foreach (var item in YieldCheck(2,11))
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }

@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-
+using System;
 namespace CSharpIntermediate
 {
     public class Customer
@@ -30,6 +30,13 @@ namespace CSharpIntermediate
         {
             this.id = Id;
             this.name = customerName;
+        }
+
+        //here comes the destructor
+        ~Customer()
+        {
+            //so called the finalizers
+            Console.WriteLine("Finalized!! via the destructor");
         }
     }
 }
