@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningCSharp", "LearningC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpIntermediate", "CSharpIntermediate\CSharpIntermediate.csproj", "{E1F92170-2756-4BA2-AF41-078BDF294892}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsLearning", "MethodsLearning\MethodsLearning.csproj", "{1DBBDBA2-9FCA-499B-AB86-7BD661CBEE54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodsLearning", "MethodsLearning\MethodsLearning.csproj", "{1DBBDBA2-9FCA-499B-AB86-7BD661CBEE54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesImpl", "InterfacesImpl\InterfacesImpl.csproj", "{A211B949-E897-40A3-A1F3-8B943DB97AB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacesImpl", "InterfacesImpl\InterfacesImpl.csproj", "{A211B949-E897-40A3-A1F3-8B943DB97AB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAdvanced", "CSharpAdvanced\CSharpAdvanced.csproj", "{C8999963-CAC5-4E1F-B5FF-4BC640CBD697}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A211B949-E897-40A3-A1F3-8B943DB97AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A211B949-E897-40A3-A1F3-8B943DB97AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A211B949-E897-40A3-A1F3-8B943DB97AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8999963-CAC5-4E1F-B5FF-4BC640CBD697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8999963-CAC5-4E1F-B5FF-4BC640CBD697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8999963-CAC5-4E1F-B5FF-4BC640CBD697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8999963-CAC5-4E1F-B5FF-4BC640CBD697}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
