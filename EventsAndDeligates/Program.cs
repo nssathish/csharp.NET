@@ -1,5 +1,7 @@
 ﻿using System;
+
 delegate void Procedure();
+delegate void Foo(String text);
 
 namespace EventsAndDeligates
 {
@@ -21,6 +23,23 @@ namespace EventsAndDeligates
         {
             Procedure someProcedures = null;
             someProcedures += new Procedure(DelegateDemo.Method1);
+            someProcedures += new Procedure(DelegateDemo.Method2);
+
+            //anonymous delegate
+            someProcedures += new Procedure(delegate {
+                Console.WriteLine("Inside Method3");
+            });
+
+            //anonymous delegates with parameters
+            Foo fooProc = null;
+            fooProc += new Foo(delegate (String text)
+            {
+                Console.WriteLine(text);
+            });
+
+            //For Lambda expression
+            fooProc += new Foo(text => Console.WriteLine(text));
+
             //CODE-SMELL 
             //The below '-=' is a code smell if we do not know when to use it
             // if any other delegate object in the middle of the process added
@@ -30,6 +49,8 @@ namespace EventsAndDeligates
             //someProcedures -= new Procedure(DelegateDemo.Method2);
 
             someProcedures();
+            fooProc("Hello everyone!! Above are synonymous but i am anonymous");
+            Console.ReadLine();
         }
     }
 }
