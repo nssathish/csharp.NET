@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventsAndDeligates", "Event
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{EED794B9-AFF7-4AAA-AEB7-D48C9193353A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{C9766BC5-AA41-4223-A57D-349D97CD35E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{EED794B9-AFF7-4AAA-AEB7-D48C9193353A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EED794B9-AFF7-4AAA-AEB7-D48C9193353A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EED794B9-AFF7-4AAA-AEB7-D48C9193353A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9766BC5-AA41-4223-A57D-349D97CD35E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9766BC5-AA41-4223-A57D-349D97CD35E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9766BC5-AA41-4223-A57D-349D97CD35E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9766BC5-AA41-4223-A57D-349D97CD35E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
