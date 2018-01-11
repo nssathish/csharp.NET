@@ -50,6 +50,12 @@ namespace EventsAndDeligates
 
             someProcedures();
             fooProc("Hello everyone!! Above are synonymous but i am anonymous");
+
+            PartialClassAudi pcsa = new PartialClassAudi();
+            PartialClassVW pcvw = new PartialClassVW();
+
+            pcsa.Audi();
+            pcvw.VolksWagen();
             Console.ReadLine();
         }
     }

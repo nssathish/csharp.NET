@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacesImpl", "Interface
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpAdvanced", "CSharpAdvanced\CSharpAdvanced.csproj", "{C8999963-CAC5-4E1F-B5FF-4BC640CBD697}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsAndDeligates", "EventsAndDeligates\EventsAndDeligates.csproj", "{C72A39DB-3504-42E1-A277-CE210C7AB02E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventsAndDeligates", "EventsAndDeligates\EventsAndDeligates.csproj", "{C72A39DB-3504-42E1-A277-CE210C7AB02E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "ConsoleApp1\Generics.csproj", "{EED794B9-AFF7-4AAA-AEB7-D48C9193353A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{C72A39DB-3504-42E1-A277-CE210C7AB02E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C72A39DB-3504-42E1-A277-CE210C7AB02E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C72A39DB-3504-42E1-A277-CE210C7AB02E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EED794B9-AFF7-4AAA-AEB7-D48C9193353A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EED794B9-AFF7-4AAA-AEB7-D48C9193353A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EED794B9-AFF7-4AAA-AEB7-D48C9193353A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EED794B9-AFF7-4AAA-AEB7-D48C9193353A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
