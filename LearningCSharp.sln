@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpAdvanced", "CSharpAdv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventsAndDeligates", "EventsAndDeligates\EventsAndDeligates.csproj", "{C72A39DB-3504-42E1-A277-CE210C7AB02E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "ConsoleApp1\Generics.csproj", "{EED794B9-AFF7-4AAA-AEB7-D48C9193353A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{EED794B9-AFF7-4AAA-AEB7-D48C9193353A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
